@@ -1,0 +1,151 @@
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>web Poster</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0" />
+</head>
+<body>
+     <div class="container">
+         <div class="first-page">
+             <div class="page-header">
+                 <div class="text-header-block">
+                     В кошачьем издательстве большая нагрузка, там требуется ваша помощь!
+                 </div>
+                 <div class="page-right">
+                     <div class="page-label">
+                         Catography
+                     </div>
+                     <div class="page-label">
+                         Кошачье издательство
+                     </div>
+                 </div>
+             </div>
+
+             <div class="main">
+                 <div class="cat">
+                     <img class="cat" src="./img/cat.svg" alt="cat who talks">
+                 </div>
+                 <div class="shells">
+                     <div class="shells__book">
+                         <img src="./img/books.png" alt="">
+                     </div>
+                     <div class="shells__book shells__help">
+                         <img src="./img/books2.svg" alt="">
+                     </div>
+                 </div>
+             </div>
+         </div>
+         <div class="second-page">
+             <div class="page-header">
+                 <div class="shells__book">
+                     <img src="./img/books.png" alt="">
+                 </div>
+                 <div class="page-right">
+                     <div class="page-label">
+                         Catography
+                     </div>
+                     <div class="page-label">
+                         Кошачье издательство
+                     </div>
+                 </div>
+             </div>
+             <div class="book-slide">
+                 <div class="book">
+                     <div class="book__header book-label">
+
+                     </div>
+                     <div class="book__name book-label">
+                         Романтическая история
+                     </div>
+                     <div class="book__footer book-label">
+                         От автора Мяука
+                     </div>
+                 </div>
+             </div>
+             <div class="page-footer">
+                 <div class="page-footer-controls">
+                     <label style="background-image: url('./img/icons/brush.svg')"><input type="color" id="book-color"></label>
+                     <label style="background-image: url('./img/icons/label.svg')"><input type="color" id="label-color"></label>
+                     <label style="background-image: url('./img/icons/t.svg')"><input type="color" id="text-color"></label>
+                     <div style="background-image: url('./img/icons/reset.svg')" id="reset"></div>
+                 </div>
+                 <div class="button-accept">
+                     Готово
+                 </div>
+             </div>
+         </div>
+         <div class="third-page">
+             <div class="page-header">
+                 <div class="shells__book">
+                     <img src="./img/books.png" alt="">
+                 </div>
+                 <div class="page-right">
+                     <div class="page-label">
+                         Catography
+                     </div>
+                     <div class="page-label">
+                         Кошачье издательство
+                     </div>
+                 </div>
+             </div>
+             <div class="middle-block">
+                 Вы хотите показать вашу книгу автору?
+             </div>
+             <div class="third-page__controls">
+                 <div class="button button-yes">
+                     Да, я уверен в своих силах
+                 </div>
+                 <div class="button button-no">
+                     Нет, я хочу переделать книгу
+                 </div>
+             </div>
+         </div>
+         <div class="success">
+             <div class="page-header jce">
+                 <div class="page-right">
+                     <div class="page-label">
+                         Catography
+                     </div>
+                     <div class="page-label">
+                         Кошачье издательство
+                     </div>
+                 </div>
+             </div>
+             <div class="result-text-block">
+                 Ваш Вариант обложки поразил автора! Кошачье издательство и дальше будет просить вашей помощи
+             </div>
+             <div class="result-footer">
+                 <div class="shells__book finish">
+                     <img src="./img/book-shell-main.svg" alt="">
+                 </div>
+             </div>
+         </div>
+         <div class="error">
+             <div class="page-header jce">
+                 <div class="page-right">
+                     <div class="page-label">
+                         Catography
+                     </div>
+                     <div class="page-label">
+                         Кошачье издательство
+                     </div>
+                 </div>
+             </div>
+             <div class="result-text-block">
+                 Ваш Вариант обложки не понравился автору. Кошачье издательство больше не хочет сотрудничать с вами!
+             </div>
+             <div class="result-footer">
+                 <div class="shells__book play-again">
+                     <img src="./img/book-shell-again.svg" alt="">
+                 </div>
+             </div>
+         </div>
+     </div>
+<script src="jquery.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
